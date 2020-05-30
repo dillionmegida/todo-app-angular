@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --maincolor: rgb(45, 131, 59);
+  --lightmaincolor: rgb(152, 236, 166);
+  --lightgrey: #eee;
+  --midlightgrey: #ddd;
+  --lightgreen: rgb(94, 230, 94);
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

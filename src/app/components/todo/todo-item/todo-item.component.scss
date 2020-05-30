@@ -1,0 +1,33 @@
+li {
+    padding: 10px;
+    border: 1px solid var(--midlightgrey);
+    width: 100%;
+    border-radius: 3px;
+    background-color: var(--lightgrey);
+    margin: 10px 0;
+    display: flex;
+    & > * {
+        padding: 2px;
+    }
+    input {
+        flex: 0.2;
+    }
+    span {
+        display: block;
+        flex: 9.6;
+    }
+    .del {
+        background: none;
+        border: none;
+        color: red;
+        flex: 0.2;
+        padding: 5px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    &.is-completed {
+        span {
+            text-decoration: line-through;
+        }
+    }
+}

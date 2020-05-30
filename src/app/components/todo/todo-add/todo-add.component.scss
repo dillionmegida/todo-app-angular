@@ -1,0 +1,20 @@
+form {
+    width: 100%;
+    display: flex;
+    input {
+        padding: 10px;
+        &[type="text"] {
+            flex: 9;
+            width: 100%;
+            border: 1px solid var(--midlightgrey);
+            border-right: none;
+        }
+        &[type="submit"] {
+            flex: 1;
+            background: var(--lightgreen);
+            color: black;
+            border: none;
+            font-weight: bold;
+        }
+    }
+}
